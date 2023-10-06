@@ -1,0 +1,1 @@
+https://github.com/gfdgd-xi/dde23-for-debian12-daily/ 的变种，用于手动编译包并推送 stable 源
