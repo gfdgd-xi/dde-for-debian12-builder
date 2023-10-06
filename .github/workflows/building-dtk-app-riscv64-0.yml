@@ -44,7 +44,7 @@ jobs:
           git clone https://$GUSER:$PASSWORD@github.com/gfdgd-xi/dde-for-debian12 --depth=1
           cd /home/runner/dde-for-debian12
           git pull
-          /home/runner/dde-for-debian12/addmore.py /home/runner/debian12-chroot/*.deb
+          /home/runner/dde-for-debian12/addmore-github.py /home/runner/debian12-chroot/*.deb
           
           git add .
           git commit -m 自动推送
