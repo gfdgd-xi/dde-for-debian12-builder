@@ -40,6 +40,7 @@ jobs:
           sudo rm -rfv /home/runner/debian12-chroot/*-dbgsym_*.deb
           git config --global user.email "3025613752@qq.com"
           git config --global user.name "$GUSER"
+          cd ~
           git clone https://$GUSER:$PASSWORD@github.com/gfdgd-xi/dde-for-debian12 --depth=1
           cd /home/runner/dde-for-debian12
           git pull
